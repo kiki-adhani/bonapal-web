@@ -1,0 +1,48 @@
+.login {
+  margin-top: 6em;
+}
+
+.login .title {
+  margin-bottom: 3em;
+}
+
+.login .login-form .email,
+.password {
+  margin-bottom: 1.5em;
+}
+
+.login .login-form .email input,
+.password input {
+  height: 3em;
+  border: 3px solid #000;
+  border-radius: 0.5em;
+  color: #000;
+}
+
+.login .login-form .forget-password a {
+  text-decoration: none;
+  color: #e79406;
+}
+
+.login .login-form .forget-password a:hover {
+  text-decoration: underline;
+}
+
+.login .login-form button {
+  background-color: #e79406;
+  border: none;
+  font-size: 1em;
+}
+
+.login .login-form button:hover {
+  background-color: #b87400;
+}
+
+.login .login-form a {
+  text-decoration: none;
+  color: #e79406;
+}
+
+.login .login-form a:hover {
+  text-decoration: underline;
+}

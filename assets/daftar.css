@@ -1,0 +1,51 @@
+.register {
+  margin-top: 6em;
+}
+
+.register .title {
+  margin: 3em;
+}
+
+.register .reg {
+  width: 10em;
+}
+
+.register .register-form .email,
+.password,
+.repeat-password,
+.full-name,
+.gender,
+.phone,
+.address,
+.provinsi,
+.kota-kab,
+.kec,
+.kel,
+.kode-pos {
+  margin-bottom: 1.5em;
+}
+
+.register .register-form input,
+.register .register-form select {
+  height: 3em;
+  border: 3px solid #000;
+  border-radius: 0.5em;
+  color: #000;
+}
+
+.register .register-form textarea {
+  height: 7.5em;
+  border: 3px solid #000;
+  border-radius: 0.5em;
+  color: #000;
+}
+
+.register button {
+  background-color: #e79406;
+  border: none;
+  font-size: 1em;
+}
+
+.register button:hover {
+  background-color: #b87400;
+}

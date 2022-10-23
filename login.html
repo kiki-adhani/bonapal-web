@@ -27,8 +27,9 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/login.css" />
 
-    <title>Bonapal | Good Friend For Good Days</title>
+    <title>Login | Bonapal</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -94,151 +95,52 @@
     <hr class="border border-1.5 border-dark opacity-100" />
     <!-- navbar end -->
 
-    <!-- hero -->
-    <section class="hero">
-      <div class="container">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/Hero.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/Hero.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/Hero.png" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- hero end -->
-
-    <!-- new product -->
-    <section class="new-product">
+    <!-- login -->
+    <section class="login">
       <div class="container">
         <div class="title row text-center">
           <div class="col">
-            <h2 class="fw-bold">Produk Baru</h2>
+            <h2 class="fw-bold">Login</h2>
           </div>
         </div>
-        <div class="products row row-cols-1 row-cols-md-4 g-4">
-          <div class="product col">
-            <div class="card h-100 text-center shadow border-0">
-              <img
-                src="assets/Product/produk-1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Waistbag Cleon Bonapal</h5>
-                <p class="price card-text">Rp167.000</p>
+        <div class="login-form row justify-content-center">
+          <div class="col-md-4">
+            <form>
+              <div class="email">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                />
               </div>
-            </div>
-          </div>
-          <div class="product col">
-            <div class="card h-100 text-center shadow border-0">
-              <img
-                src="assets/Product/produk-2.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Waistbag Draco Bonapal</h5>
-                <p class="price card-text">Rp247.000</p>
+              <div class="password">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
               </div>
-            </div>
-          </div>
-          <div class="product col">
-            <div class="card h-100 text-center shadow border-0">
-              <img
-                src="assets/Product/produk-3.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Plato Backpack Bonapal</h5>
-                <p class="card-text text-decoration-line-through">Rp564.000</p>
-                <p class="price card-text">Rp338.000</p>
+              <div class="forget-password fw-bold">
+                <p><a href="">Lupa Password</a></p>
               </div>
-            </div>
-          </div>
-          <div class="product col">
-            <div class="card h-100 text-center shadow border-0">
-              <img
-                src="assets/Product/produk-4.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Waistbag Draco Bonapal</h5>
-                <p class="price card-text">Rp247.000</p>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary mb-5 fw-bold">
+                  Login
+                </button>
+                <p>
+                  Belum memiliki akun?
+                  <a href="daftar.html" class="fw-bold">Daftar disini</a>
+                </p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="all-product text-center">
-          <button type="button" class="btn btn-primary fw-bold">
-            Semua Produk
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- new product end -->
-
-    <!-- product pictures -->
-    <section class="product-pictures d-flex justify-content-center">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="assets/Product/image-4.png" alt="" class="img-fluid" />
+            </form>
           </div>
         </div>
       </div>
     </section>
-    <!-- product pictures end -->
-
-    <!-- tagline -->
-    <section class="tagline">
-      <div class="container">
-        <div class="row">
-          <div class="text-1 col">
-            <p class="fw-bold">GOOD</p>
-          </div>
-          <div class="text-2 col">
-            <p class="fw-bold">FRIEND</p>
-            <p class="fw-bold">FOR GOOD DAYS</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- tagline end -->
+    <!-- login end -->
 
     <!-- contact -->
     <section class="contact">
