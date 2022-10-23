@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #fff;
+  padding: 1em 0;
+}
+
+.container-fluid {
+  padding: 0 3em;
+}
+
+.navbar .navbar-brand {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-brand img {
+  height: 2em;
+  margin-right: 1.5em;
+  float: left;
+}
+
+.navbar .nav-link {
+  margin: auto 0.5em;
+  color: #000;
+  font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+  color: #e79406;
+}
+
+.navbar .searchbar {
+  display: flex;
+}
+
+.navbar .searchbar input {
+  width: 400px;
+  border: 3px solid #000;
+  border-radius: 25px;
+  color: #000;
+}
+
+/* .navbar .searchbar .search-icon {
+  position: relative;
+  padding: 1em;
+  left: auto;
+  right: 25.5em;
+}
+
+iconify-icon {
+  font-size: 2em;
+} */
+
+.navbar .account,
+.cart {
+  font-size: 2.8em;
+  align-items: center;
+  display: flex;
+  margin: auto 0.25em;
+}
+
+hr {
+  max-width: 95%;
+  margin: 0 auto;
+  color: #000;
+  border-color: #000;
+}
+
+/* HERO */
+.hero .container {
+  margin: 0;
+  padding: 0;
+  max-width: fit-content;
+}
+
+/* NEW PRODUCT */
+.new-product {
+  margin-top: 6em;
+}
+
+.new-product .products {
+  margin: 3em 0;
+}
+
+.new-product .product {
+  padding: 0 1.25em;
+  margin: 0;
+}
+
+.new-product .product .price {
+  color: #e79406;
+}
+
+.new-product .all-product button {
+  background-color: #e79406;
+  border: none;
+  font-size: 1em;
+}
+
+.new-product .all-product button:hover {
+  background-color: #b87400;
+}
+
+/* PRODUCT PICTURES */
+.product-pictures {
+  margin-top: 6em;
+}
+
+.product-pictures .container {
+  margin: 0;
+  padding: 0;
+}
+
+/* TAGLINE */
+.tagline {
+  margin-top: 3em;
+}
+.tagline .text-1 {
+  font-size: 10em;
+  color: #e79406;
+}
+
+.tagline .text-2 {
+  font-size: 3.5em;
+  color: #000;
+  padding-top: 0.5em;
+}
+
+.tagline p {
+  padding: 0;
+  margin: 0;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #e79406;
+  margin-top: 6em;
+  color: #fff;
+}
+
+.contact .container {
+  padding: 0;
+}
+
+.contact .profile {
+  padding: 4em 0;
+}
+
+.contact .profile img {
+  margin-bottom: 2em;
+}
+
+.contact li {
+  list-style: none;
+}
+
+.contact .social-media {
+  color: #fff;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.contact .social-media iconify-icon {
+  font-size: 1.5em;
+}
+
+.contact .social-media p {
+  padding-left: 1em;
+}
+
+/* FOOTER */
+footer {
+  background-color: #000;
+}
+
+footer iconify-icon {
+  font-size: 1em;
+}
