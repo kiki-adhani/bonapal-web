@@ -1,0 +1,14 @@
+.about-us {
+  margin-top: 6em;
+}
+
+.about-us .title {
+  margin: 3em;
+}
+
+.about-us p {
+  text-align: justify;
+  text-indent: 50px;
+  width: 1080px;
+  margin-top: 3em;
+}
