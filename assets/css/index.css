@@ -29,7 +29,7 @@
 .navbar .nav-link {
   margin: auto 0.5em;
   color: #000;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .navbar .nav-link:hover {
@@ -41,10 +41,12 @@
 }
 
 .navbar .searchbar input {
-  width: 400px;
+  width: 300px;
   border: 3px solid #000;
-  border-radius: 25px;
+  border-radius: 20px;
   color: #000;
+  font-size: 14px;
+  height: 2.5em;
 }
 
 /* .navbar .searchbar .search-icon {
@@ -60,7 +62,9 @@ iconify-icon {
 
 .navbar .account,
 .cart {
-  font-size: 2.8em;
+  font-size: 2.5em;
+  top: 50%;
+  transform: translate(0%, 10%);
   align-items: center;
   display: flex;
   margin: auto 0.25em;
@@ -115,6 +119,11 @@ hr {
   margin: 0;
 }
 
+.new-product .product .card-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
 .new-product .product .price {
   color: #e79406;
 }
@@ -144,14 +153,14 @@ hr {
   margin-top: 3em;
 }
 .tagline .text-1 {
-  font-size: 10em;
+  font-size: 9em;
   color: #e79406;
 }
 
 .tagline .text-2 {
-  font-size: 3.5em;
+  font-size: 4em;
   color: #000;
-  padding-top: 0.5em;
+  letter-spacing: 0.4em;
 }
 
 .tagline p {
@@ -176,6 +185,10 @@ hr {
 
 .contact .profile img {
   margin-bottom: 2em;
+}
+
+.contact .profile {
+  font-size: 0.875em;
 }
 
 .contact li {
@@ -216,4 +229,18 @@ footer {
 
 footer iconify-icon {
   font-size: 1em;
+  transform: translate(0%, 10%);
+}
+
+footer iconify-icon:hover {
+  color: #e79406;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e79406;
 }

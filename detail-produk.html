@@ -26,7 +26,13 @@
     />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/detail-produk.css" />
+    <link rel="stylesheet" href="assets/css/jquery.nice-number.css" />
+
+    <!-- Script jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="assets/js/jquery.nice-number.js"></script>
 
     <title>Waistbag Cleon Bonapal | Bonapal</title>
   </head>
@@ -84,7 +90,7 @@
             </a>
           </div>
           <div class="cart">
-            <a href="">
+            <a href="keranjang.html">
               <iconify-icon icon="humbleicons:cart"></iconify-icon>
             </a>
           </div>
@@ -96,7 +102,203 @@
 
     <!-- detail produk -->
     <section class="detail-produk">
-      <div class="container"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5 thumbnail-produk">
+            <img src="assets/detail-produk/detail-produk-1.png" class="big" />
+            <div class="thumbnail">
+              <img
+                src="assets/detail-produk/detail-produk-1.png"
+                class="thumb"
+              />
+              <img
+                src="assets/detail-produk/detail-produk-2.png"
+                class="thumb"
+              />
+              <img
+                src="assets/detail-produk/detail-produk-3.png"
+                class="thumb"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="title">
+              <h3 class="fw-bold">Waistbag Cleon Bonapal</h3>
+            </div>
+            <div class="price">
+              <p>Rp167.000</p>
+            </div>
+            <div class="details">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <th>Pengiriman ke</th>
+                    <td>
+                      <div class="select">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Pilih Daerah</option>
+                          <option value="1">Provinsi</option>
+                          <option value="2">Kota/Kabupaten</option>
+                          <option value="3">Kecamatan</option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Variasi</th>
+                    <td>
+                      <div class="variety">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Maroon</option>
+                          <option value="1">Navy</option>
+                          <option value="2">Black</option>
+                          <option value="3">Army</option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Kuantitas</th>
+                    <td>
+                      <div class="quantity">
+                        <div class="col-5">
+                          <div class="input-group number-spinner">
+                            <span class="input-group-btn">
+                              <button
+                                class="btn btn-default btn-outline-primary"
+                                data-dir="dwn"
+                              >
+                                -
+                              </button>
+                            </span>
+                            <input
+                              type="text"
+                              class="form-control text-center"
+                              value="1"
+                            />
+                            <span class="input-group-btn">
+                              <button
+                                class="btn btn-default btn-outline-primary"
+                                data-dir="up"
+                              >
+                                +
+                              </button>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Bagikan ke</th>
+                    <td>
+                      <div class="socmed-share">
+                        <a
+                          class="social-media"
+                          href="https://wa.me/6282114101975"
+                        >
+                          <iconify-icon
+                            icon="akar-icons:whatsapp-fill"
+                          ></iconify-icon>
+                        </a>
+                        <a
+                          class="social-media"
+                          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bonapal.official@gmail.com&su=Bantuan"
+                        >
+                          <iconify-icon icon="carbon:email"></iconify-icon>
+                        </a>
+                        <a
+                          class="social-media"
+                          href="https://www.instagram.com/bonapal.official/"
+                        >
+                          <iconify-icon
+                            icon="akar-icons:instagram-fill"
+                          ></iconify-icon>
+                        </a>
+                        <a
+                          class="social-media"
+                          href="https://www.tiktok.com/@bonapal.id"
+                        >
+                          <iconify-icon
+                            icon="akar-icons:tiktok-fill"
+                          ></iconify-icon>
+                        </a>
+                        <a
+                          class="social-media"
+                          href="https://www.facebook.com/Bonapal-106338405458743"
+                        >
+                          <iconify-icon
+                            icon="brandico:facebook-rect"
+                          ></iconify-icon>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="row button-buy">
+                <button type="button" class="btn btn-primary btn-keranjang">
+                  Masukkan Keranjang
+                </button>
+                <button type="button" class="btn btn-primary btn-beli">
+                  Beli Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="product-desc">
+              <h4>Deskripsi</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores aliquam temporibus culpa autem distinctio, unde
+                delectus commodi suscipit atque tempora laboriosam quam, animi
+                error voluptatem natus, necessitatibus deserunt esse. Ipsa quos
+                dolorum necessitatibus aut aliquam? Cupiditate esse ut nostrum
+                blanditiis illo autem, explicabo, unde dolorum quos tempore
+                vitae nihil eum atque id quasi harum? Quas, veniam! Ipsa
+                consequatur hic nostrum veniam maxime nulla debitis, quibusdam
+                animi impedit unde sint, perferendis eveniet dolor harum amet
+                ducimus necessitatibus explicabo laudantium ut exercitationem!
+                Vel amet vitae accusantium ea soluta non, deleniti itaque ad
+                molestias, quae blanditiis! Sint aliquid iusto tempora fugiat
+                illo quos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="rate">
+              <h4>Penilaian Produk</h4>
+              <div class="rate-product">
+                <h6>Kiki Adhani</h6>
+                <div class="rate-star">
+                  <iconify-icon icon="material-symbols:star"></iconify-icon>
+                  <iconify-icon icon="material-symbols:star"></iconify-icon>
+                  <iconify-icon icon="material-symbols:star"></iconify-icon>
+                  <iconify-icon icon="material-symbols:star"></iconify-icon>
+                  <iconify-icon
+                    icon="material-symbols:star-half"
+                  ></iconify-icon>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti, illo!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- detail produk end -->
 
@@ -112,7 +314,7 @@
             </p>
           </div>
           <div class="col">
-            <h4 class="fw-bold">Kontak</h4>
+            <h5 class="fw-bold">Kontak</h5>
             <li>
               <a class="social-media" href="https://wa.me/6282114101975">
                 <iconify-icon icon="akar-icons:whatsapp-fill"></iconify-icon>
@@ -154,7 +356,7 @@
             </li>
           </div>
           <div class="menu col">
-            <h4 class="fw-bold">Menu</h4>
+            <h5 class="fw-bold">Menu</h5>
             <p><a href="index.html">Beranda</a></p>
             <p><a href="produk.html">Produk</a></p>
             <p><a href="bantuan.html">Bantuan</a></p>
@@ -171,11 +373,14 @@
     <footer class="text-white text-center align-self-center">
       <p class="p-3 mb-0">
         Created with
-        <iconify-icon icon="ant-design:heart-filled"></iconify-icon> by Larago
-        Studio
+        <iconify-icon icon="ant-design:heart-filled"></iconify-icon>
+        by <a href="">Larago Studio</a>
       </p>
     </footer>
     <!-- footer end -->
+
+    <!-- Javascript -->
+    <script src="assets/js/detail-produk.js"></script>
 
     <!-- Bootstrap -->
     <script

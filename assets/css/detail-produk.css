@@ -1,0 +1,145 @@
+.detail-produk {
+  margin-top: 6em;
+}
+
+.detail-produk .big {
+  width: 30em;
+}
+
+.detail-produk .thumbnail-produk {
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.detail-produk .thumb {
+  width: 6em;
+  margin: 1em 1em 0 0;
+}
+
+.detail-produk .thumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.detail-produk .price {
+  color: #e79406;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.detail-produk .select {
+  width: fit-content;
+  display: inline-flex;
+  margin-left: 1em;
+}
+
+.detail-produk .select select {
+  border-color: #000;
+}
+
+.detail-produk .variety {
+  width: fit-content;
+  display: inline-flex;
+  margin-left: 1em;
+}
+
+.detail-produk .variety select {
+  border-color: #000;
+}
+
+.detail-produk .quantity {
+  width: fit-content;
+  display: inline-flex;
+  margin-left: 1em;
+}
+
+.detail-produk .quantity button {
+  border-color: #000;
+  border-radius: 0;
+  color: #000;
+}
+
+.detail-produk .quantity button:hover {
+  background-color: #e79406;
+}
+
+.detail-produk .quantity input {
+  border-color: #000;
+}
+
+.detail-produk .button-buy {
+  width: fit-content;
+  display: inline-flex;
+  margin-left: 0.5em;
+}
+
+.detail-produk .button-buy .btn-keranjang {
+  background-color: #fff;
+  border-color: #e79406;
+  border-width: 3px;
+  color: #e79406;
+  font-weight: bold;
+  width: 15em;
+}
+
+.detail-produk .button-buy .btn-keranjang:hover {
+  background-color: #e79406;
+  color: #fff;
+}
+
+.detail-produk .button-buy .btn-beli {
+  background-color: #e79406;
+  border-color: #e79406;
+  border-width: 0;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1em;
+  width: 12em;
+}
+
+.detail-produk .button-buy .btn-beli:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.detail-produk .socmed-share {
+  width: fit-content;
+  display: inline-flex;
+  margin-left: 1em;
+}
+
+.detail-produk .social-media {
+  color: #000;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.detail-produk .social-media:hover {
+  color: #e79406;
+}
+
+.detail-produk h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.detail-produk .product-desc {
+  margin-bottom: 3em;
+}
+
+.detail-produk .product-desc p {
+  text-align: justify;
+}
+
+.detail-produk .rate-product h6 {
+  color: #e79406;
+  font-weight: bold;
+}
+
+.detail-produk .rate-star {
+  color: #e79406;
+  font-size: 1.5em;
+}

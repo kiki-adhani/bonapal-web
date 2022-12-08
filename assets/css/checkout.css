@@ -1,0 +1,125 @@
+.checkout {
+  margin-top: 6em;
+}
+
+.checkout .title {
+  margin: 3em;
+}
+
+.checkout .checkout-details h6 {
+  color: #e79406;
+}
+
+.checkout .checkout-details .table .identitas {
+  width: 10em;
+  padding-right: 6em;
+}
+
+.checkout .checkout-details .table .alamat {
+  width: 40em;
+}
+
+.checkout .checkout-details .table button {
+  width: 5em;
+  color: #e79406;
+  border-color: #e79406;
+  background-color: #fff;
+}
+
+.checkout .checkout-details .table button:hover {
+  background-color: #e79406;
+  color: #fff;
+}
+
+.checkout .checkout-details .form-control {
+  border-color: #000;
+  border-width: 0.2em;
+  text-decoration: #000;
+}
+
+.checkout .checkout-details .order {
+  margin-top: 3em;
+}
+
+.checkout .checkout-details .table img {
+  height: 6em;
+}
+
+.checkout .checkout-details .table a {
+  text-decoration: none;
+  color: #000;
+}
+
+.checkout .checkout-details .table .total {
+  color: #e79406;
+  font-weight: bold;
+}
+
+.checkout .checkout-details button {
+  background-color: #000;
+  font-weight: bold;
+  border-color: #000;
+}
+
+.checkout .checkout-details button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.checkout .payment-method {
+  margin-top: 2em;
+}
+
+.checkout .payment-method hr {
+  width: 90em;
+  max-width: 100%;
+}
+
+.checkout .payment-method h2 {
+  font-size: 1em;
+  color: #e79406;
+  font-weight: bold;
+}
+.checkout .payment-method .cod,
+.checkout .payment-method .midtrans,
+.checkout .payment-method .bank {
+  margin: 1em 0;
+}
+
+.checkout .payment-method .cod h2,
+.checkout .payment-method .midtrans h2 {
+  margin-left: 1.3em;
+  margin-bottom: 0;
+}
+
+.checkout .payment-method button {
+  background-color: #fff;
+  font-weight: bold;
+  border-color: #e79406;
+  color: #e79406;
+}
+
+.checkout .payment-method .cod button:hover,
+.checkout .payment-method .midtrans button:hover {
+  background-color: #e79406;
+  color: #fff;
+}
+
+.checkout .payment-method img {
+  height: 2em;
+  margin-left: 1em;
+}
+
+.checkout .payment-method .accordion button {
+  font-size: 1em;
+  color: #e79406;
+  font-weight: bold;
+}
+
+.checkout .payment-method .accordion .accordion-body {
+  padding: 0 1em;
+}
+
+.checkout .payment-method .accordion .col-1 {
+  width: 10em;
+}

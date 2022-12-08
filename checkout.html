@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- shortcut icon -->
+    <link href="assets/Shortcut/Shortcut.png" rel="shortcut icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+
+    <title>Checkout | Bonapal</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/Logo 1.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bantuan.html">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="searchbar">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pencarian"
+                aria-label="Search"
+              />
+              <!-- <div class="search-icon">
+                  <iconify-icon icon="eva:search-fill"></iconify-icon>
+                </div> -->
+            </div>
+          </form>
+          <div class="account">
+            <a href="login.html">
+              <iconify-icon icon="codicon:account"></iconify-icon>
+            </a>
+          </div>
+          <div class="cart">
+            <a href="keranjang.html">
+              <iconify-icon icon="humbleicons:cart"></iconify-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr class="border border-1.5 border-dark opacity-100" />
+    <!-- navbar end -->
+
+    <!-- checkout -->
+    <section class="checkout">
+      <div class="container">
+        <div class="row title text-center">
+          <div class="col">
+            <h4 class="fw-bold">Checkout</h4>
+          </div>
+        </div>
+        <div class="checkout-details">
+          <div class="row">
+            <div class="col">
+              <h6 class="fw-bold">Alamat Pengiriman</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <table class="table table-borderless align-middle">
+                <tbody>
+                  <tr>
+                    <td class="identitas fw-bold">
+                      Kiki Adhani (085887260284)
+                    </td>
+                    <td class="alamat">
+                      Kp. Bojong Sari, Jalan Nurul Iman, RT. 03, RW. 01
+                      Jatisari, Jatiasih,Kota Bekasi, Jawa Barat 17426
+                    </td>
+                    <td class="edit text-end">
+                      <button class="btn btn-pirmary fw-bold">Ubah</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Catatan (Opsional)"
+                aria-label="Catatan (Opsional)"
+              />
+            </div>
+          </div>
+          <div class="row order">
+            <div class="col">
+              <h6 class="fw-bold">Pesanan</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="pesanan">
+                <div class="row">
+                  <div class="col">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th scope="col">Produk</th>
+                          <th scope="col">Harga Satuan</th>
+                          <th scope="col">Kuantitas</th>
+                          <th scope="col">Total Harga</th>
+                        </tr>
+                      </thead>
+                      <tbody class="table-group-divider align-middle">
+                        <tr>
+                          <th scope="row">
+                            <a href="">
+                              <img
+                                src="assets/detail-produk/detail-produk-1.png"
+                                alt=""
+                              />
+                              Waistbag Cleon Bonapal
+                            </a>
+                          </th>
+                          <td>Rp167.000</td>
+                          <td>1</td>
+                          <td class="total">Rp167.000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Masukkan Kode Voucher"
+                aria-label="Masukkan Kode Voucher"
+              />
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-primary btn-voucher">
+                Gunakan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="payment-method">
+          <div class="cod">
+            <div class="row align-items-center">
+              <div class="col">
+                <h2>Bayar di Tempat</h2>
+              </div>
+              <div class="col text-end">
+                <button type="button" class="btn btn-primary btn-cod">
+                  Pilih
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="midtrans">
+            <div class="row align-items-center">
+              <div class="col-1">
+                <h2>Midtrans</h2>
+              </div>
+              <div class="col">
+                <img src="assets/images/payment/logo-midtrans.png" alt="" />
+              </div>
+              <div class="col text-end">
+                <button type="button" class="btn btn-primary btn-cod">
+                  Pilih
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Transfer Bank
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="bank">
+                    <div class="row align-items-center">
+                      <div class="col-1">
+                        <img src="assets/images/payment/logo-bca.png" alt="" />
+                      </div>
+                      <div class="col">
+                        <h2>Bank BCA</h2>
+                      </div>
+                      <div class="col text-end">
+                        <button type="button" class="btn btn-primary btn-cod">
+                          Pilih
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="bank">
+                    <div class="row align-items-center">
+                      <div class="col-1">
+                        <img src="assets/images/payment/logo-bri.png" alt="" />
+                      </div>
+                      <div class="col">
+                        <h2>Bank BRI</h2>
+                      </div>
+                      <div class="col text-end">
+                        <button type="button" class="btn btn-primary btn-cod">
+                          Pilih
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="bank">
+                    <div class="row align-items-center">
+                      <div class="col-1">
+                        <img
+                          src="assets/images/payment/logo-mandiri.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col">
+                        <h2>Bank Mandiri</h2>
+                      </div>
+                      <div class="col text-end">
+                        <button type="button" class="btn btn-primary btn-cod">
+                          Pilih
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio1"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-dark" for="btnradio1"
+            >COD (Bayar di Tempat)</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio2"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-dark" for="btnradio2"
+            >Transfer Bank</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio3"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-dark" for="btnradio3">Midtrans</label> -->
+        </div>
+      </div>
+    </section>
+    <!-- checkout end -->
+
+    <!-- contact -->
+    <section class="contact">
+      <div class="container">
+        <div class="profile row">
+          <div class="col">
+            <img src="assets/logo-2.png" alt="" class="img-fluid" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Mollitia, vitae?
+            </p>
+          </div>
+          <div class="col">
+            <h5 class="fw-bold">Kontak</h5>
+            <li>
+              <a class="social-media" href="https://wa.me/6282114101975">
+                <iconify-icon icon="akar-icons:whatsapp-fill"></iconify-icon>
+                <p>082114101975</p>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-media"
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bonapal.official@gmail.com&su=Bantuan"
+              >
+                <iconify-icon icon="carbon:email"></iconify-icon>
+                <p>bonapal.official@gmail.com</p>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-media"
+                href="https://www.instagram.com/bonapal.official/"
+              >
+                <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                <p>bonapal.official</p>
+              </a>
+            </li>
+            <li>
+              <a class="social-media" href="https://www.tiktok.com/@bonapal.id">
+                <iconify-icon icon="akar-icons:tiktok-fill"></iconify-icon>
+                <p>bonapal.id</p>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-media"
+                href="https://www.facebook.com/Bonapal-106338405458743"
+              >
+                <iconify-icon icon="brandico:facebook-rect"></iconify-icon>
+                <p>Bonapal</p>
+              </a>
+            </li>
+          </div>
+          <div class="menu col">
+            <h5 class="fw-bold">Menu</h5>
+            <p><a href="index.html">Beranda</a></p>
+            <p><a href="produk.html">Produk</a></p>
+            <p><a href="bantuan.html">Bantuan</a></p>
+            <p><a href="tentang-kami.html">Tentang Kami</a></p>
+            <p><a href="login.html">Akun</a></p>
+            <p><a href="keranjang.html">Keranjang</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+    <footer class="text-white text-center align-self-center">
+      <p class="p-3 mb-0">
+        Created with
+        <iconify-icon icon="ant-design:heart-filled"></iconify-icon>
+        by <a href="">Larago Studio</a>
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- Javascript -->
+    <script src="assets/js/detail-produk.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/583b3d140f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  </body>
+</html>
